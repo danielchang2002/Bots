@@ -1,35 +1,38 @@
-casual	casual
-checked	a cuadrados
-cotton	de algodón
-fancy	elegante
-floral	floral
-formal	formal
-heavy	pesado/pesada
-high	alto/alta
-large	grande
-leather	de cuero
-light	ligero/ligera
-linen	de lino
-long	largo/larga
-loose	suelto/suelta
-low	bajo/baja
-medium	mediano/mediana
-narrow	estrecho/estrecha
-new	nuevo/nueva
-nylon	de nylon
-old	viejo/vieja
-plaid	tartán
-plain	simple
-short	corto/corta
-silk	de seda
-small	pequeño/pequeña
-striped	a rayas
-tight	apretado/apretada
-turtleneck	de cuello de tortuga
-wide	ancho/ancha
-wool	de lana
-striped	a rayas
-tight	apretado/apretada
-turtleneck	de cuello de tortuga
-wide	ancho/ancha
-wool	de lana
+accessories	los complementos
+art	el arte
+children's fashion	la moda infantil
+colombian	colombiano
+consumer	el consumidor
+consumption	el consumo
+contemporary	contemporáneo
+cover	la portada
+crafts	la artesanía
+cuban cigar	el puro habano
+decent/worthy	digno
+decoration	la decoración
+designer	el diseñador
+developing	en vías de desarrollo
+discount	la rebaja
+fair trade	el comercio justo
+fashion	la moda
+goal/objective	el objetivo
+he/shestudied	estudió
+international fashion fair	el Salón Internacional de la Moda
+mate	la yerba mate
+model	el modelo
+motto	el lema
+organization	la organización
+producer	el productor
+product	el producto
+responsible	responsable
+right	el derecho
+special edition	la edición especial
+tapestry	el tapiz
+to belong	pertenecer
+to buy	comprar
+to guarantee	garantizar
+to make aware	hacer consciente
+to protect	proteger
+trip	el viaje
+venir	to come
+wage	el sueldo

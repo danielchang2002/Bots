@@ -11,7 +11,8 @@ vocab = {}
 with open('vocab.txt', encoding='utf-8') as vocabFile:
     for line in vocabFile:
         words = re.split('\t|\n|/', line)
-        vocab[words[0]] = words[1]
+        print(words)
+        vocab[words[0]] = words[-2]
 
 # print(vocab)
 # while 1:
@@ -19,16 +20,19 @@ with open('vocab.txt', encoding='utf-8') as vocabFile:
     # sleep(1)
 # pyautogui.displayMousePosition()
 
-LEFT = 363
-TOP = 457
-WIDTH = 1448 - 363
-HEIGHT = 616 - 457
+topLeftCorner = (363, 457)
+bottomRightCorner = (1448, 616)
+
+LEFT = topLeftCorner[0]
+TOP = topLeftCorner[1]
+WIDTH = bottomRightCorner[0] - topLeftCorner[0]
+HEIGHT = bottomRightCorner[1] - topLeftCorner[1]
 
 keyboard.wait('esc')
 while not keyboard.is_pressed('q'):
-    img = pyautogui.screenshot(region=(363, 457, WIDTH, HEIGHT))
+    img = pyautogui.screenshot(region=(LEFT, TOP, WIDTH, HEIGHT))
     output = pytesseract.image_to_string(img).lower()
-    output = re.split('\n', output)[0]
+    output = re.split('\n|/', output)[0]
     keyboard.write(vocab[output])
     keyboard.press_and_release('enter')
     sleep(0.1)
